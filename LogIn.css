@@ -53,6 +53,7 @@ h1 {
 	-moz-box-shadow: -1px -1px 3px black inset;
     box-shadow: -1px -1px 3px black inset;
     border: 1px solid black;
+    font-family: Arial;
 }
 
 #submit{
@@ -70,4 +71,5 @@ h1 {
     background: -moz-linear-gradient(#243352, #151b29);
     background: linear-gradient(#243352, #151b29);
     color: white;
+    font-family: Arial;
 }
