@@ -1,29 +1,18 @@
 html {
     background: url(./Fotolia_60355311_XXL.jpg) no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
     background-size: cover;
 }
 
 #dialogBG {
 	width: 300px;
 	height: 250px;
-	background: -webkit-linear-gradient(#243352, black);
-    background: -o-linear-gradient(#243352, black);
-    background: -moz-linear-gradient(#243352, black);
     background: linear-gradient(#243352, black);
 	border: 1px solid black;
 	position: fixed;
 	top: 50%;
 	left: 50%;
 	-webkit-transform: translate(-50%, -50%);
-	-moz-transform: translate(-50%, -50%);
-	-ms-transform: translate(-50%, -50%);
-	-o-transform: translate(-50%, -50%);
 	transform: translate(-50%, -50%);
-	-webkit-box-shadow: 0px 0px 25px 1px black;
-	-moz-box-shadow: 0px 0px 25px 1px black;
     box-shadow: 0px 0px 25px 1px black;
 }
 
@@ -45,12 +34,7 @@ h1 {
     width: 170px;
     margin-left: 50%;
 	-webkit-transform: translate(-50, 0%);
-	-moz-transform: translate(-50%, 0%);
-	-ms-transform: translate(-50%, 0%);
-	-o-transform: translate(-50%, 0%);
 	transform: translate(-50%, 0%);
-	-webkit-box-shadow: -1px -1px 3px black inset;
-	-moz-box-shadow: -1px -1px 3px black inset;
     box-shadow: -1px -1px 3px black inset;
     border: 1px solid black;
     font-family: Arial;
@@ -61,14 +45,8 @@ h1 {
     width: 100px;
     margin-left: 50%;
 	-webkit-transform: translate(-50, -30%);
-	-moz-transform: translate(-50%, -30%);
-	-ms-transform: translate(-50%, -30%);
-	-o-transform: translate(-50%, -30%);
 	transform: translate(-50%, -30%);
     border: 1px solid black;
-    background: -webkit-linear-gradient(#243352, #151b29);
-    background: -o-linear-gradient(#243352, #151b29);
-    background: -moz-linear-gradient(#243352, #151b29);
     background: linear-gradient(#243352, #151b29);
     color: white;
     font-family: Arial;
